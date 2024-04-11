@@ -1,0 +1,8 @@
+.burger-menu-btn{
+    color: aqua;
+}
+
+.burger-menu-icon{
+    display: flex;
+    flex-direction: column;
+}
