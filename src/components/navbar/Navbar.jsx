@@ -5,6 +5,7 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 
 import './NavbarStyles.css'
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { AiOutlineClose } from 'react-icons/ai';
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -13,7 +14,7 @@ function Navbar() {
   }
   return (
     <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
-      <div className='logo'>
+      <div className={nav? 'logo dark' : 'logo'}>
         <h2>BEACHES.</h2>
       </div>
       <ul className="nav-menu">
@@ -28,7 +29,8 @@ function Navbar() {
         <BsPerson className='icon' />
       </div>
       <div className="hamburger" onClick={handleNav}>
-        <HiOutlineMenuAlt4 className='icon'/>
+        {!nav ? (<HiOutlineMenuAlt4 className='icon'/>):(<AiOutlineClose style={{color: '#000'}} className='icon'/>)}
+
       </div>
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
