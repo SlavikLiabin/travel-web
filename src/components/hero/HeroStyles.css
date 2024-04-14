@@ -59,3 +59,9 @@
 .form input[type=text]:focus {
     outline: none;
 }
+
+@media screen and (max-width: 940px){
+    .form input[type=text]{
+        max-width: 275px;
+    }
+}
