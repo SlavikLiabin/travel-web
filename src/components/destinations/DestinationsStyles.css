@@ -38,5 +38,10 @@
     .img-container {
         --num-cols: 2; 
         --row-height: 200px;
+        --grap: .5rem
+    }
+
+    .span-3 {
+        grid-column: span 2;
     }
 }
