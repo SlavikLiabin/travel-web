@@ -36,8 +36,27 @@ function Search() {
           <form>
             <div className="input-wrap">
               <label>Destination</label>
-              <select></select>
+              <select>
+                <option value='1'>Grande Antigua</option>
+                <option value='1'>Grenda</option>
+                <option value='1'>Emerald Bay</option>
+                <option value='1'>Bora Bora</option>
+                <option value='1'>Key West</option>
+                <option value='1'>Maldives</option>
+                <option value='1'>Barbados</option>
+              </select>
             </div>
+            <div className="date">
+              <div className="input-wrap">
+                <label>Check-In</label>
+                <input type="date" />
+              </div>
+              <div className="input-wrap">
+                <label>Check-Out</label>
+                <input type="date" />
+              </div>
+            </div>
+            <button>Rates & Availibilities</button>
           </form>
         </div>
       </div>
