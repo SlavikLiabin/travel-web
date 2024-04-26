@@ -4,7 +4,7 @@ import BoraBora from '../../assets/borabora.jpg'
 
 function SelectsImg() {
   return (
-    <div className='selects-img'>
+    <div className='selects-location'>
       <img src={BoraBora} alt="/" />
       <div className="overlay">
         <p>BoraBora</p>

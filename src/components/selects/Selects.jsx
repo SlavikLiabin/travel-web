@@ -7,11 +7,12 @@ import Maldives from '../../assets/maldives.jpg'
 import Maldives2 from '../../assets/maldives2.jpg'
 import Maldives3 from '../../assets/maldives3.jpg'
 import KeyWest from '../../assets/keywest.jpg'
+import SelectsImg from '../SelectsImg/SelectsImg';
 
 function Selects() {
   return (
     <div className='selects'>
-      <img src="" alt="" />
+      <SelectsImg bgImg={BoraBora} text='Bora Bora'/>
     </div>
   )
 }
